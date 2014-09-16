@@ -8,7 +8,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-			<div class="row">
+				<div class="row">
                     <div class="span12" id="title-header">
 					<div class="page-header">
                         <?php get_template_part("static/static-customtitle"); ?>

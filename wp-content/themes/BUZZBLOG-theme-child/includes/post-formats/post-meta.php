@@ -9,7 +9,7 @@ $date_format = of_get_option('date_format');
 	<div class="meta-space">
 		<?php		
 		if ($post_author=='yes' || $post_author=='') { ?>
-		<span><?php echo $blog_author_name; ?> <?php the_author_posts_link() ?></span>
+		<!--<span><?php //echo $blog_author_name; ?> <?php the_author_posts_link() ?></span>-->
 		<?php } ?>
 	<span><i class="icon-calendar-2"></i> <?php if ($date_format) { the_time($date_format); }else{the_time('d M Y');} ?></span>
 	
