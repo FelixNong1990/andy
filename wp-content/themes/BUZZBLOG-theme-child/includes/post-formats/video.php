@@ -1,5 +1,5 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('post__holder'); ?>>				
-<?php formaticons(); 
+<?php //formaticons(); 
 ?>
 	<header class="post-header">	
 		<?php if(!is_singular()) : ?>

@@ -16,7 +16,7 @@ $embed = get_post_meta(get_the_ID(), 'tz_audio_embed', true);
 		
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('post__holder'); ?>>	
-<?php formaticons(); ?>
+<?php //formaticons(); ?>
 	<div class="row-fluid">
 	<div class="span12">
 	

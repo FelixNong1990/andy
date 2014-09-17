@@ -68,7 +68,7 @@ class My_SocialNetworksWidget extends WP_Widget {
 							</a>
 						<?php } ?>
 					<?php if ($display == "icons") { ?>
-						<a target="_blank" class="icon-<?php echo strtolower($network);?> icon-2x social_link social_link__<?php echo strtolower($network); ?>" data-rel="tooltip" data-original-title="<?php echo strtolower($network); ?>" href="<?php echo $networks[$network]['link']; ?>">
+						<a target="_blank" class="icon-<?php echo strtolower($network);?> icon-2x social_link social_link__<?php echo strtolower($network); ?>" data-rel="tooltip" data-original-title="<?php echo $network; ?>" href="<?php echo $networks[$network]['link']; ?>">
 							</a>
 						<?php } ?>
 										<?php if ($display == "labels") { ?>

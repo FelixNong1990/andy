@@ -1,5 +1,5 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('post__holder'); ?>>
-<?php formaticons(); ?>
+<?php //formaticons(); ?>
 	<?php $hercules_post_meta = of_get_option('post_meta'); ?>
 <?php if ($hercules_post_meta=='true' || $hercules_post_meta=='') { ?>
 	<?php get_template_part('includes/post-formats/post-meta');

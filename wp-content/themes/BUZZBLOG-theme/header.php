@@ -51,6 +51,7 @@ wp_head();
 <link rel="stylesheet" id="stylesheet-ie8" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/ie8.css" />
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/respond.js"></script>
 <![endif]-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>

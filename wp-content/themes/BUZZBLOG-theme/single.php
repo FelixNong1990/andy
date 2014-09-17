@@ -1,24 +1,25 @@
 <?php get_header(); 
 $sidebarpost = of_get_option('post_sidebar');?>
+<?php //echo do_shortcode('[do_widget "hercules - Social Networks"]'); ?>
 <div class="content-holder clearfix">
     <div class="container">
         <div class="row">
             <div class="span12">
-                <div class="row">
+                <!--<div class="row">
                 <div class="span12" id="title-header">
                 <div class="page-header">
                 <section class="title-section">
-                <?php $blog_text = of_get_option('blog_text'); ?>
-				<?php if($blog_text){?>
-				<?php echo "<h1>". of_get_option('blog_text') . "</h1>"; 	} ?>
-                <?php $blog_sub = of_get_option('blog_sub');  ?>
-				<?php if($blog_sub){?>
-			    <?php echo "<h2>". of_get_option('blog_sub') . "</h2>"; 	?>
-				<?php } ?>
+                <?php //$blog_text = of_get_option('blog_text'); ?>
+				<?php //if($blog_text){?>
+				<?php //echo "<h1>". of_get_option('blog_text') . "</h1>"; 	} ?>
+                <?php ///$blog_sub = of_get_option('blog_sub');  ?>
+				<?php //if($blog_sub){?>
+			    <?php // "<h2>". of_get_option('blog_sub') . "</h2>"; 	?>
+				<?php //} ?>
           </section>
             </div> 
                 </div>
-                   </div>
+                   </div>-->
                  <div class="row">
                <?php if ($sidebarpost=='false') { ?>
 			   <div class="span12" id="content">

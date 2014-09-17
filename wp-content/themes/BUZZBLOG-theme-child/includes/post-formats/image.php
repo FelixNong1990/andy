@@ -1,5 +1,5 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('post__holder'); ?>>
-<?php formaticons(); ?>
+<?php //formaticons(); ?>
 	<header class="post-header">	
 		<?php if(!is_singular()) : ?>
 			<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php echo theme_locals('permalink_to');?> <?php the_title(); ?>"><?php the_title(); ?></a></h2>

@@ -27,12 +27,12 @@ $temp = $wp_query;
 
 	if (have_posts()) : while (have_posts()) : the_post();
 		// The following determines what the post format is and shows the correct file accordingly
-		//$format = get_post_format();
-		//get_template_part( 'includes/post-formats/'.$format );
+		$format = get_post_format();
+		get_template_part( 'includes/post-formats/'.$format );
 
-		//if ($format == '')
+		if ($format == '')
 			get_template_part( 'includes/post-formats/standard' );
-		endwhile; //else: ?>
+		endwhile; else: ?>
 
 		<div class="no-results">
 			<?php echo '<p><strong>' .theme_locals("there_has"). '</strong></p>'; ?>

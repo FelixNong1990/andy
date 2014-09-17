@@ -1,5 +1,5 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('format-quote'); ?>>
-<?php formaticons(); ?>
+<?php //formaticons(); ?>
 	<div class="row-fluid">
 
 	<div class="span12">

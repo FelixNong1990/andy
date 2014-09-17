@@ -238,4 +238,8 @@ input.val('');
             horizontalScrolling: false
         });
     });
+	
+	$('.comment-form-comment br').remove();
+	
+	
 }(jQuery));
